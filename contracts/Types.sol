@@ -2,8 +2,14 @@
 // SPDX-License-Identifier: GPL-3.0
 pragma solidity ^0.5.16;
 
-contract SolidityTypes {
+contract Types {
 
+    // Variable visibility
+    // private  - inside contract [getter function created]
+    // internal - inside contract contract that inherits
+    // public   - inside and outside the contract
+    // default  - private
+    
     // 1. fixed-size 
     bool isReady = true;
     uint a = 0;
